@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     try {
 
-        require_once 'dbh.inc.php';
+        require_once '../dbh.inc.php';
         require_once 'aflever_model.inc.php';
         require_once 'aflever_contr.inc.php';
 
@@ -22,12 +22,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             $errors["pcNumberIncorrect"] = "PC'en er ikke registreret";
         }
 
-        require_once 'config_session.inc.php';
+        require_once '../config_session.inc.php';
 
         if ($errors) {
             $_SESSION["errors_aflevering"] = $errors;
 
-            header("Location: ../index.php");
+            header("Location: ../../index.php");
 
             die();
         }
@@ -39,11 +39,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     afleverPc($pdo, $pcNummer);
 
-    header("Location: ../index.php");
+    header("Location: ../../index.php");
     
     die();
 } else {
-    header("Location: ../index.php");
+    header("Location: ../../index.php");
 
     die();
 }

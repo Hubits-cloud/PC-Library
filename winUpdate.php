@@ -19,7 +19,7 @@ require_once 'includes/config_session.inc.php'
         
         <div class="login-page">
             <h1>Aflever PC</h1>
-            <form action="includes/aflever/aflever.inc.php" method="post">
+            <form action="includes/winUpdate/winUpdate.inc.php" method="post">
                 <div class="txt-field">
                     <input type="int" name="pcNummer" required>
                     <span></span>

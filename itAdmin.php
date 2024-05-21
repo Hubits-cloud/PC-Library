@@ -18,16 +18,25 @@ require_once 'includes/config_session.inc.php'
     <body>
         
         <div class="login-page">
-            <h1>Login</h1>
+            <h1>Manage PC's</h1>
             <form>
                 <div class="admin-link">
-                    <a href="lån.php">Klik her</a>
+                    Sidste win opdatering <a href="winUpdate.php">Klik her</a>
                 </div>
                 <div class="admin-link">
-                    Aflever pc? <a href="afleveret.php">Klik her</a>
+                    Bærbar info <a href="lån.php">Klik her</a>
                 </div>
                 <div class="admin-link">
-                    IT Admin. <a href="itAdmin.php">Klik her</a>
+                    Tilføj PC <a href="lån.php">Klik her</a>
+                </div>
+                <div class="admin-link">
+                    Registrer tyvsikrings nummer <a href="afleveret.php">Klik her</a>
+                </div>
+                <div class="admin-link">
+                    Register MAC addresse <a href="itAdmin.php">Klik her</a>
+                </div>
+                <div class="admin-link">
+                    Tilbage til forside? <a href="index.php">Klik her</a>
                 </div>
             </form>
         </div>

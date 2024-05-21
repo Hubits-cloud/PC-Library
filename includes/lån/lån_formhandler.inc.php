@@ -1,6 +1,6 @@
 <?php 
 
-include_once "config_session.inc.php";
+include_once "../config_session.inc.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $date = date("Y-m-d");
 
     try {
-        require_once "dbh.inc.php";
+        require_once "../dbh.inc.php";
 
         $query = "INSERT INTO lånPc (pcNummer, bruger, udlåntDato) VALUES (:pc, :user, :date);";
 
@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $pdo = null;
         $stmt = null;
 
-        header("Location: ../index.php");
+        header("Location: ../../index.php");
 
         die();
 
@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $pdo = null;
             $stmt = null;
 
-            header("Location: ../index.php");
+            header("Location: ../../index.php");
 
             die();
             
@@ -54,5 +54,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
     }
 } else {
-    header("Location: ../index.php");
+    header("Location: ../../index.php");
 }
