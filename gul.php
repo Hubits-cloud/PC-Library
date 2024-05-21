@@ -18,26 +18,19 @@ require_once 'includes/config_session.inc.php'
     <body>
         
         <div class="login-page">
-            <h1>Manage PC's</h1>
-            <form>
-                <div class="admin-link">
-                    Sidste win opdatering <a href="winUpdate.php">Klik her</a>
+            <h1>Aflever PC</h1>
+            <form action="includes/info/info.inc.php" method="post">
+                <div class="txt-field">
+                    <input type="int" name="pcNummer" required>
+                    <span></span>
+                    <label>PC Nummer</label>
                 </div>
-                <div class="admin-link">
-                    Bærbar info <a href="gul.php">Klik her</a>
+                <div class="txt-field">
+                    <input type="int" name="pcInfo" required>
+                    <span></span>
+                    <label>Info</label>
                 </div>
-                <div class="admin-link">
-                    Tilføj PC <a href="lån.php">Klik her</a>
-                </div>
-                <div class="admin-link">
-                    Registrer tyvsikrings nummer <a href="afleveret.php">Klik her</a>
-                </div>
-                <div class="admin-link">
-                    Register MAC addresse <a href="itAdmin.php">Klik her</a>
-                </div>
-                <div class="admin-link">
-                    Tilbage til forside? <a href="index.php">Klik her</a>
-                </div>
+                <input type="submit" value="Aflever">
             </form>
         </div>
     </body>
