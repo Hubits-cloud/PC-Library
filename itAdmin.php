@@ -27,13 +27,13 @@ require_once 'includes/config_session.inc.php'
                     Bærbar info <a href="gul.php">Klik her</a>
                 </div>
                 <div class="admin-link">
-                    Tilføj PC <a href="lån.php">Klik her</a>
+                    Tilføj PC <a href="tilføjPc.php">Klik her</a>
                 </div>
                 <div class="admin-link">
-                    Registrer tyvsikrings nummer <a href="afleveret.php">Klik her</a>
+                    Registrer tyvsikrings nummer <a href="tyvsikring.php">Klik her</a>
                 </div>
                 <div class="admin-link">
-                    Register MAC addresse <a href="itAdmin.php">Klik her</a>
+                    Register MAC addresse <a href="macAddresse.php">Klik her</a>
                 </div>
                 <div class="admin-link">
                     Tilbage til forside? <a href="index.php">Klik her</a>

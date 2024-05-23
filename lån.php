@@ -21,7 +21,7 @@ require_once 'includes/config_session.inc.php'
             <h1>Indskriv PC</h1>
             <form action="includes/lån/lån_formhandler.inc.php" method="post">
                 <div class="txt-field">
-                    <input type="text" name="pc-nummer" required>
+                    <input type="text" name="pcNummer" required>
                     <span></span>
                     <label>PC Nummer</label>
                 </div>

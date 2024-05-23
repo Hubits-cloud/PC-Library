@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         if ($errors) {
             $_SESSION["errors_aflevering"] = $errors;
 
-            header("Location: ../itAdmin.php");
+            header("Location: ../../itAdmin.php");
 
             die();
         }
@@ -42,11 +42,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     updateInfo($pdo, $pcNummer, $pcInfo);
 
-    header("Location: ../itAdmin.php");
+    header("Location: ../../itAdmin.php");
     
     die();
 } else {
-    header("Location: ../itAdmin.php");
+    header("Location: ../../itAdmin.php");
 
     die();
 }
