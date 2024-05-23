@@ -5,6 +5,8 @@ $dsn = "mysql:host=localhost;dbname=låne_system";
 $dbusername = 'root';
 $dbpassword = '';
 
+$db = NEW PDO('mysql:host=localhost;dbname=låne_system', 'root', '');
+
 try {
 
     # makes a pdo var containg a new PDO object with our above variables

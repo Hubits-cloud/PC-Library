@@ -7,6 +7,45 @@ body {
     overflow: hidden;
 }
 
+.data-page {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 500px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.data-page thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.data-page th,
+.data-page td {
+    padding: 12px 15px;
+}
+
+.data-page tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.data-page tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.data-page tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.data-page tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
 form .txt-field {
     position: relative;
     border-bottom: 2px solid silver;
@@ -66,6 +105,16 @@ input[type="submit"]:hover {
 .login-page form {
     padding: 0 40px;
     box-sizing: border-box;
+}
+
+.data-page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 710px;
+    background-color: #EFEFEF;
+    border-radius: 10px;
 }
 
 .txt-field input {
