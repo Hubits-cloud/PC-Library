@@ -1,5 +1,5 @@
 <?php 
-
+echo "AFAS";
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $pcNummer = $_POST["pcNummer"];
     $pcNummer = intval($pcNummer);
@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         if ($errors) {
             $_SESSION["errors_winUpdate"] = $errors;
 
-            header("Location: ../itAdmin.php");
+            header("Location: ../../itAdmin.php");
 
             die();
         }
@@ -39,11 +39,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     afleverPc($pdo, $pcNummer);
 
-    header("Location: ../itAdmin.php");
+    header("Location: ../../itAdmin.php");
     
     die();
 } else {
-    header("Location: ../itAdmin.php");
+    header("Location: ../../itAdmin.php");
 
     die();
 }

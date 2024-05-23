@@ -4,7 +4,7 @@ include_once "../config_session.inc.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $pc = $_POST["pc-nummer"];
+    $pc = $_POST["pcNummer"];
     $user = $_POST["brugernavn"];
     $date = date("Y-m-d");
 

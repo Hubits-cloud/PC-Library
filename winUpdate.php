@@ -18,15 +18,15 @@ require_once 'includes/config_session.inc.php'
     <body>
         
         <div class="login-page">
-            <h1>Aflever PC</h1>
-            <form action="includes/winUpdate/winUpdate.inc.php" method="post">
+            <h1>Opdater Windows</h1>
+            <form action="includes\winUpdate\winUpdate.inc.php" method="post">
                 <div class="txt-field">
                     <input type="int" name="pcNummer" required>
                     <span></span>
                     <label>PC Nummer</label>
                 </div>
-                <input type="submit" value="Aflever">
+                <input type="submit" value="Opdater">
             </form>
         </div>
     </body>
-</html>
+</html> 
