@@ -1,7 +1,9 @@
 <?php 
 
+# Makes the code strict instead of dynamic
 declare (strict_types=1);
 
+# Makes a function that either takes a bool or an array that is then placed in the var $result
 function isPcNumberWrong( bool | array $result) {
     if (!$result) {
 
@@ -11,6 +13,7 @@ function isPcNumberWrong( bool | array $result) {
     }
 }
 
+# Makes a function that takes an int
 function isInputEmpty (int $pcNummer) {
     if (empty($pcNummer)) {
 

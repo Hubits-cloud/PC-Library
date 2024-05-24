@@ -1,6 +1,6 @@
 <?php 
 
-# FOR NOTES GO TO CONFIG.PHP
+# DONT TOUCH THE COOKIES ⸨◺_◿⸩
 
 ini_set('session.use_only_cookies', 1);
 ini_set('session.use_strict_mode', 1);
