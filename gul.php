@@ -5,6 +5,7 @@ require_once 'includes/config_session.inc.php'
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="author" content="Tobias Madsen Belling">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/reset.css">
@@ -18,12 +19,12 @@ require_once 'includes/config_session.inc.php'
     <body>
         
         <div class="login-page">
-            <h1>Aflever PC</h1>
+            <h1>PC Info</h1>
             <form action="includes/info/info.inc.php" method="post">
                 <div class="txt-field">
                     <input type="int" name="pcNummer" required>
                     <span></span>
-                    <label>PC Nummer</label>
+                    <label>PC Info</label>
                 </div>
                 <div class="txt-field">
                     <input type="int" name="pcInfo" required>

@@ -1,5 +1,9 @@
 <?php 
 
+/**
+ * @author Tobias Madsen Belling <tobiasbell.dev@outlook.com>
+ */
+
 # DONT TOUCH THE COOKIES ⸨◺_◿⸩
 
 ini_set('session.use_only_cookies', 1);

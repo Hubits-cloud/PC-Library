@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Tobias Madsen Belling <tobiasbell.dev@outlook.com>
+ */
+
 # places the database type(mysql), db host(localhost), and db name(myfirstdatabase) all under one var for the PDO class to read
 $dsn = "mysql:host=localhost;dbname=låne_system";
 $dbusername = 'root';

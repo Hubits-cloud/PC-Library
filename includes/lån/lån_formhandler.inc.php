@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Tobias Madsen Belling <tobiasbell.dev@outlook.com>
+ */
+
 # Allows the code from config to run here 
 include_once "../config_session.inc.php";
 

@@ -5,6 +5,7 @@ require_once 'includes/config_session.inc.php'
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="author" content="Tobias Madsen Belling">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/reset.css">
@@ -14,11 +15,12 @@ require_once 'includes/config_session.inc.php'
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <title>Tilføj PC</title>
     </head>
     <body>
         
         <div class="login-page">
-            <h1>Indskriv PC</h1>
+            <h1>Tilføj PC</h1>
             <form action="includes/tilføj/tilføj.inc.php" method="post">
                 <div class="txt-field">
                     <input type="text" name="pcNummer" required>

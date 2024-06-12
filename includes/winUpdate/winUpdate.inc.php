@@ -1,5 +1,9 @@
 <?php 
 
+/**
+ * @author Tobias Madsen Belling <tobiasbell.dev@outlook.com>
+ */
+
 # If you got here through a post method
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 

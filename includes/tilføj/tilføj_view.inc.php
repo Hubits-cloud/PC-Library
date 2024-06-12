@@ -1,5 +1,9 @@
 <?php 
 
+/**
+ * @author Tobias Madsen Belling <tobiasbell.dev@outlook.com>
+ */
+
 declare(strict_types=1);
 
 # saves what the user typed for a more streamlined experience
