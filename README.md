@@ -1,4 +1,4 @@
-![library logo](images/pdf/logo-color.pdf)
+![library logo](images/pdf/logo-color.png)
 
 Designed for Windows 10. *Should work on both Ubuntu and Windows 11 but i haven't tested it*
 
